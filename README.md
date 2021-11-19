@@ -3,6 +3,8 @@
 A quick xbar/Argos plugin to show a customizable world clock in your title bar.
 I have only tested this with Argos (for Gnome Shell).
 
+![Screenshot using Argos on Gnome Shell](argos_screenshot.png)
+
 ## Requirements
 
 * Python 3
