@@ -9,7 +9,8 @@ I have only tested this with Argos (for Gnome Shell).
 
 * Python 3
 * A suitable extension like:
-  * https://github.com/p-e-w/argos . The extension on https://extensions.gnome.org/extension/1176/argos/ has not been updated for newer Gnome versions. At the time of writing this, Fedora 37 contains a `gnome-shell-extension-argos` package.
+  * https://github.com/p-e-w/argos
+    * Fedora 38: At the time of writing this, [the package on Fedora 38 is broken](https://bugzilla.redhat.com/show_bug.cgi?id=2211941). Until the package is updated, following [the manual installation steps](https://github.com/p-e-w/argos#manually) and using the `e2d68ea23eed081fccaec06c384e2c5d2acb5b6b` commit works.
 * Probably Gnu CoreUtils or something, so `TZ=xxx date +"%A %H:%M"` works. I would prefer to use native Python for portability, but I think that would require `zoneinfo`, added in Python 3.9.
 
 ## Usage
