@@ -30,3 +30,5 @@ Pedro;Europe/Madrid
 * Lines starting with `#` are ignored
 
 Make the file executable and drop it in `~/.config/argos/` (for Argos).
+
+See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List for a list of timezones or `/usr/share/zoneinfo/zone1970.tab` on Linux systems.
